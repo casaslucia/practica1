@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family = Work + Sans & display = swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #c8d6e5;
+}
+
+h1{
+	font-family: 'Work Sans', sans-serif;
+	color: #01a3a4;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+ol{
+	font-family: 'Work Sans', sans-serif;
+	color: #576574;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+	color: #01a3a4;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.filter{
+	filter: blur(2px);
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.filter1{
+	filter: grayscale(1);
+	
+}
+
+.multifondo{
+	background: url(../img/pajaros.png) no-repeat, url(../img/perro.png) no-repeat;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+#contenedorcolumnas{
+	width: 600px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #01a3a4;
+	border-color: #01a3a4;
+	border-width: 2px;
+	border-style: solid;
+}
+p{
+	font-family: arial;
+	font-size: 15px;
+	text-align: justify;
+}
+
+#redondo {
+border: 1px solid #553245;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+padding: 10px;
+}  
+
+
+.medio{
+	color: rgb(200,214,229);
+	font-family: arial;
+	background-color: rgba(100,100,100,0.50);
+	
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+}
+
+#degradado {
+ width: 500px;
+ height: 200px;
+ margin-left: 40px;
+ margin-top: 10px;
+ background: -moz-linear-gradient(top, #65b6cf , #2c2c2c);
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf),  to(#2c2c2c));
+ background: -o-linear-gradient(rgb(0,0,255),rgb(255,0,0));
+}
+
+#sombraclara{
+   width: 200px;
+   padding: 10px;
+   background-color: #999999;
+   color: #ffffff;
+   
+   box-shadow: 7px 7px 7px #cccccc;
+   -webkit-box-shadow: 7px 7px 7px #cccccc;
+   -moz-box-shadow: 7px 7px 7px #cccccc;
+} 
